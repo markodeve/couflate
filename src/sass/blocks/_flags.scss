@@ -1,0 +1,32 @@
+.flags {
+    min-height: 85px;
+    padding: 20px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    &__elem {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,10px);
+        gap: 10px 20px;
+        justify-content: left;
+        
+    }
+    &__img {
+        grid-row: 1/4;
+        align-self: baseline;
+        
+    }
+    &__country {
+        font-weight: 800;
+        font-size: 12px;
+    }
+    &__info {
+        font-size: 10px;
+    }
+    &__contacts {
+        font-size: 10px;
+        
+    }
+}
