@@ -3,7 +3,9 @@
     padding: 20px 0;
     &__wrapper {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5,200px);
+    justify-content: space-between;
+    padding: 0 20px;
     }
     &__elem {
         display: grid;
