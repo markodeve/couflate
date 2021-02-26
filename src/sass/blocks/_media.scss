@@ -14,6 +14,11 @@
     .container {
         padding: 0 15px;
     }
+    .odorlo12 {
+        &__wrapper {
+            justify-content: space-evenly;
+        }
+    }
 
 }
 
@@ -31,6 +36,8 @@
 }
 
 @media (max-width: 576px) {
-    
+    .header__info {
+        width: 100%;
+    }
 
 }

@@ -1,0 +1,33 @@
+.odorlo12 {
+    min-height: 985px;
+    padding: 80px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        
+        flex-wrap: wrap;
+    }
+    &__elem {
+        padding: 30px 90px;
+        border: 1px solid rgb(212, 212, 212);
+        position: relative;
+        width: 360px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    &__siman {
+        position: absolute;
+        right: -35px;
+        bottom: -35px;
+    }
+    &__arrows {
+        
+        width: 230px;
+        text-align: center;
+        margin: 30px auto;
+    }
+    .bold {
+        font-weight: 800;
+    }
+}
