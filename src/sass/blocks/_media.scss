@@ -29,6 +29,12 @@
             width: 100%;
         }
     }
+    .benefits__wrapper {
+        width: 100%;
+        .benefits__item {
+            margin-bottom: 20px;
+        }
+    }
    
 
 }
@@ -70,12 +76,25 @@
     .deli {
         display: flex;
     }
+    .benefits__text {
+        padding: 10px 10px;
+        height: 100%;
+    }
 }
 
 @media (max-width: 576px) {
     .header__info {
         width: 100%;
     }
-    
+    .benefits {
+        min-height: 100%;
+        padding-bottom: 10px;
+    }
+    .benefits__text {
+        font-size: 15px;
+    }
+    .solutions {
+        min-height: 660px;
+    }
 
 }
