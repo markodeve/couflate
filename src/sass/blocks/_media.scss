@@ -35,7 +35,20 @@
             margin-bottom: 20px;
         }
     }
-   
+    .options {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__img1, &__img2 {
+            justify-content: center;
+        }
+    }
+   .start {
+    padding-top: 100px;
+       &__wrapper {
+           width: 100%;
+       }
+   }
 
 }
 
