@@ -1,0 +1,26 @@
+.footer {
+    min-height: 495px;
+    background-color: #1e90ff;
+    padding: 45px 0 40px 0;
+    &__wrapper {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list {
+        li {
+            list-style-type: none;
+            a {
+                color: #fff;
+            }
+        }
+    }
+    &__title {
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+    &__text {
+        width: 380px;
+        margin-top: 15px;
+    }
+}

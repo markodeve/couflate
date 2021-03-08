@@ -78,7 +78,21 @@
             width: 100%;
         }
     }
-    
+    .footer {
+        &__wrapper {
+            flex-wrap: wrap;
+            margin: 0 auto;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        &__item {
+            width: 50%;
+            text-align: center;
+        }
+        &__text {
+            width: 100%;
+        }
+    }
     
 }
 
@@ -92,6 +106,12 @@
     .benefits__text {
         padding: 10px 10px;
         height: 100%;
+    }
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
 
